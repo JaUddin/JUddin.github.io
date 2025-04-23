@@ -11,6 +11,7 @@ header {
     color: white;
     padding: 1em;
     text-align: center;
+    font-size: 1.5em;
 }
 
 nav {
@@ -23,6 +24,7 @@ nav a {
     color: white;
     margin: 0 1em;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .hero, .section {
@@ -36,6 +38,14 @@ nav a {
 
 .hero h1, .section h2 {
     margin: 0.5em 0;
+    font-size: 2em;
+}
+
+.hero p, .section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
 .btn {
@@ -44,17 +54,9 @@ nav a {
     padding: 0.75em 1.5em;
     text-decoration: none;
     border-radius: 5px;
-}
-
-.image-section {
-    text-align: center;
-    margin: 2em 0;
-}
-
-.main-image {
-    width: 80%;
-    max-width: 600px;
-    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 1em;
+    display: inline-block;
 }
 
 footer {
@@ -62,4 +64,14 @@ footer {
     color: white;
     text-align: center;
     padding: 1em;
+    font-size: 0.9em;
+}
+
+iframe {
+    border: none;
+    width: 90%;
+    height: 900px; /* Bigger Calendly */
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
 }
